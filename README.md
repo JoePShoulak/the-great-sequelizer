@@ -23,9 +23,9 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Getting Started
-You’ll need to use the MySQL2. and Sequelize. packages to connect your Express.js API to a MySQL database and the dotenv package. to use environment variables to store sensitive data, like your MySQL username, password, and database name.
+You’ll need to use the `MySQL2` and `Sequelize` packages to connect your `Express.js` API to a MySQL database and the `dotenv` package to use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
-Use the schema.sql file in the db folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
+Use the `schema.sql` file in the db folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
 ## Database Models
 Your database should contain the following four models, including the requirements listed for each model:
