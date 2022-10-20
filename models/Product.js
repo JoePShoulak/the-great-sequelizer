@@ -9,7 +9,10 @@ class Product extends Model {}
 // set up fields and rules for Product model
 Product.init(
   {
-    id: DataTypes.INTEGER,
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true
+    },
     product_name: DataTypes.STRING,
     price: DataTypes.DECIMAL,
     stock: DataTypes.INTEGER,
